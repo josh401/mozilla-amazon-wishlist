@@ -1,6 +1,6 @@
 jQuery(document).ready(function($) {
 	
-	
+	// Initialize tooltips
 	$('body').on('mouseenter', '.tooltip:not(.tooltipstered)', function(){
 		$(this).tooltipster({ 'contentAsHTML': true, 'animation': 'fade', 'content': $(this).parent().siblings('div.list_items_found_tooltip').html() }).tooltipster('open');
 	});
@@ -99,7 +99,7 @@ jQuery(document).ready(function($) {
 	}
 	
 	
-	
+	// Listen for node changes and rerun calculations (handles removing, undoing and moving items)
 	$('div#item-page-wrapper').bind("DOMNodeRemoved", function(e) {
 		
 		//$('div#list_sub_total').remove();
@@ -111,12 +111,4 @@ jQuery(document).ready(function($) {
 		setTimeout( function() { calculate_results(); }, 500 );
 	});
 	
-	
-	
-	$.when($.post()).then(function () {
-		//all request complete
-		//alert('TTT');
-	});
 });
-
-
