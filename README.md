@@ -36,4 +36,4 @@ GPL-3.0
 
    [jQuery]: <http://jquery.com>
    [ToolTipster]: <http://iamceege.github.io/tooltipster/>
-   [pub_repo]: <https://github.com/josh401/mozilla-amazon-wishlist>
+   [pub_repo]: <https://github.com/joshlobe/mozilla-amazon-wishlist>
