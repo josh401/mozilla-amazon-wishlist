@@ -1,0 +1,37 @@
+div#list_sub_total {
+	background: linear-gradient(to bottom,#f7f8fa,#e7e9ec); 
+	width: 100%; 
+	padding: 3px 10px; 
+	margin-bottom: 20px; 
+	border: 1px solid black; 
+	border-radius: 3px; 
+	font-size: 14px;
+}
+
+div.awl_one_fourth {
+	width: 25%;
+	display: inline-block;
+	float: left;
+	
+	text-align: center;
+}
+
+span.item_count_header {
+	font-weight: bold;
+}
+
+span.item_count {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+span.tooltip {
+	font-weight: bold;
+}
+span.tooltip:hover {
+	cursor: pointer;
+}
+
+div.list_items_found_tooltip {
+	display: none;
+}
